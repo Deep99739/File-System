@@ -19,8 +19,6 @@ System ideas.  It is organised into three layers:
    image*) and exposes 4096-byte block reads/writes so that the file system
    behaves as if it were talking to real hardware.
 
-(See `docs/project06-components.png` for a visual diagram.)
-
 Key Features Implemented
 ------------------------
 * Superblock creation, verification, and pretty-printing (`debug`, `format`,
