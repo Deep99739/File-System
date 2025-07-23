@@ -43,23 +43,6 @@ File-System Commands
 * **read**     Copy bytes from an inode into a host-side file or buffer.
 * **write**    Copy bytes from a host-side file or buffer into an inode.
 
-Directory Layout
-----------------
-```
-
-.
-├── docs/                 ← diagrams and design notes
-├── include/              ← public headers
-├── src/
-│   ├── library/
-│   │   ├── disk.cpp      ← provided disk emulator
-│   │   └── fs.cpp        ← your SimpleFS implementation
-│   └── shell/
-│       └── sfssh.cpp     ← interactive shell
-└── tests/                ← unit and integration tests
-
-```
-
 Attribution
 -----------
 Project specification, starter code, and diagrams were provided by  
